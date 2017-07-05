@@ -1,6 +1,10 @@
-
+let Hello = React.createClass({
+    render: function () {
+        return <h1>Hello!</h1>
+    }
+});
 
 ReactDOM.render(
-    <h1>Hello, world!</h1>,
-    document.getElementById('root')
+    <Hello/>,
+    document.getElementById("content")
 );
